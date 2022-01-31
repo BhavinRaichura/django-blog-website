@@ -1,0 +1,343 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+ 
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Jan 31 21:02:27 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+CSF_EXCEPTION_PROMPT = 1
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-bc3f16ce-5c9d-4785-ba94-1d0dcde2adfe.sock
+# environment
+CSF_XmlOcafResource = /usr/share/opencascade/resources/XmlOcafResource
+# environment
+LC_NAME = en_IN
+# environment
+LC_NUMERIC = en_IN
+# environment
+VSCODE_CWD = /home/bhavin
+# environment
+MMGT_CLEAR = 1
+# environment
+CSF_XCAFDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+CSF_PluginDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+CASROOT = /usr
+# environment
+LC_ADDRESS = en_IN
+# environment
+GDM_LANG = en_IN.utf8
+# default
+MAKE_COMMAND := make
+# environment
+GTK3_MODULES = xapp-gtk3-module:xapp-gtk3-module
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/bhavin/django blog website/django-blog-website
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/bhavin
+# environment
+XDG_DATA_DIRS = /home/bhavin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/bhavin/.config/Code - OSS/CachedData/ee8c7def80afc00dd6e593ef12f37756d8f504ea
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+CSF_ShadersDirectory = /usr/share/opencascade/resources/Shaders
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/bhavin/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/bhavin/django blog website/django-blog-website
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXNBcjJG/agent.1093
+# default
+.SHELLFLAGS := -c
+# environment
+CSF_MDTVTexturesDirectory = /usr/share/opencascade/resources/Textures
+# environment
+XDG_CONFIG_DIRS = /etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = xfce
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"Code - OSS","submitURL":"","uploadToServer":false}
+# makefile
+MAKEFILE_LIST := 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 1568
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+CSF_XSMessage = /usr/share/opencascade/resources/XSMessage
+# environment
+DRAWDEFAULT = /usr/share/opencascade/resources/DrawResources/DrawDefault
+# environment
+SESSION_MANAGER = local/bhavin-vostro3580:@/tmp/.ICE-unix/1022,unix/bhavin-vostro3580:/tmp/.ICE-unix/1022
+# automatic
+*F = $(notdir $*)
+# environment
+QT_QPA_PLATFORMTHEME = qt5ct
+# environment
+CHROME_DESKTOP = code-oss.desktop
+# environment
+CSF_SHMessage = /usr/share/opencascade/resources/SHMessage
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+BREAKPAD_DUMP_LOCATION = /home/bhavin/.config/Code - OSS/exthost Crash Reports
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# environment
+CSF_TObjDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/bhavin/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = en_IN
+# environment
+CSF_OCCTResourcePath = /usr/share/opencascade/resources
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = en_IN
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+CSF_StandardLiteDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+CSF_STEPDefaults = /usr/share/opencascade/resources/XSTEPResource
+# environment
+LC_TELEPHONE = en_IN
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = XFCE
+# environment
+CSF_MIGRATION_TYPES = /usr/share/opencascade/resources/StdResource/MigrationSheet.txt
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = xfce
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = XFCE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = bhavin
+# environment
+CSF_LANGUAGE = us
+# environment
+XDG_VTNR = 7
+# makefile
+.DEFAULT_GOAL := 
+# environment
+CSF_TObjMessage = /usr/share/opencascade/resources/TObj
+# environment
+EDITOR = /usr/bin/nano
+# environment
+DISPLAY = :0.0
+# environment
+GTK_MODULES = canberra-gtk-module:canberra-gtk-module
+# environment
+USER = bhavin
+# default
+MAKE_VERSION := 4.3
+# environment
+LC_MEASUREMENT = en_IN
+# environment
+SSH_AGENT_PID = 1094
+# environment
+_ = /usr/bin/make
+# environment
+LC_PAPER = en_IN
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+CSF_DrawPluginDefaults = /usr/share/opencascade/resources/DrawResources
+# environment
+CSF_IGESDefaults = /usr/share/opencascade/resources/XSTEPResource
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /home/bhavin/.gtkrc-2.0
+# environment
+HOME = /home/bhavin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+DRAWHOME = /usr/share/opencascade/resources/DrawResources
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-ac41e80b-1.61.0-main.sock
+# environment
+XDG_SESSION_ID = 1
+# environment
+PANEL_GDK_CORE_DEVICE_EVENTS = 0
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/bhavin
+# environment
+CSF_StandardDefaults = /usr/share/opencascade/resources/StdResource
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+XDG_MENU_PREFIX = xfce-
+# environment
+GDMSESSION = xfce
+# environment
+LC_IDENTIFICATION = en_IN
+# variable set hash-table stats:
+# Load=129/1024=13%, Rehash=0, Collisions=11/156=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2052, inode 22552389): 8 files, no impossibilities.
+
+# 8 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+ 
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 16 / storage = 144 B / avg = 9 B
+# current buf: size = 8162 B / used = 144 B / count = 16 / avg = 9 B
+
+# strcache performance: lookups = 19 / hit rate = 15%
+# hash-table stats:
+# Load=16/8192=0%, Rehash=0, Collisions=0/19=0%
+# Finished Make data base on Mon Jan 31 21:02:27 2022
+
+ 
