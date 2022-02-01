@@ -1,7 +1,8 @@
 from django.shortcuts import render,redirect
-from django.http import HttpResponse
+from django.http import HttpResponse,JsonResponse
 from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
+import json
 
 from blog.forms import NewClient
 from datetime import date
@@ -16,7 +17,6 @@ def home(response):
     
 
 def create_ac(request):
-    
     if request.method == 'POST':
         username = request.POST.get('username')
         email = request.POST.get('email')
@@ -27,6 +27,16 @@ def create_ac(request):
         return redirect('home')
     return render(request, 'register.html', {})
 
+def check_accounts(request,username=""):
+    print("_______________________________________________",username)
+    clnt= username
+    print(type(username))
+    if Clients.objects.filter(username=str(clnt)):
+        print("here")
+        response_data=[{"user":True}]
+        return JsonResponse(response_data, safe=False)
+
+    return HttpResponse(False)
 
 def user_logout(request):
     logout(request)
